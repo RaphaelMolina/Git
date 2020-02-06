@@ -1,0 +1,1 @@
+comando git init para criar um repositório
