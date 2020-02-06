@@ -1,1 +1,26 @@
-comando git init para criar um repositório
+comandos:
+git version (consultar a versão do git) 
+git config --global user.name "Nome do usuário" (para acrescentar o nome no commit)
+git config --global user.email "E-mail do usuário" (para acrescentar o e-mail no commit)
+clear (para limpar a tela do Bash)
+git config user.name (Consulta o nome do usuário)
+git config user.email (Consulta o e-mail do usuário)
+git config core.editor (Consulta o editor padrão)
+git config --global core.editor "Caminho para o executável do editor"(Altera o editor padrão)
+pwd (exibe onde você esta)
+cd /c (para navegar entre os diretórios)
+ls (lista todos os arquivos e diretórios)
+touch arquivo.txt (cria um arquivo, é possivél criar mais de um arquivo com o mesmo comando é só dar espaço entre eles)
+touch diretório/arquivo.txt (cria um arquivo dentro de um diretório)
+exit (fecha o git)
+mkdir nomedodiretorio (cria um diretório)
+git config --list (para listar todas as configurações que o Git conseguir encontrar naquele momento)
+git init (para criar um repositório. O ponto na frente do diretório .git diz que ele é um diretório oculto.
+O conteúdo do projeto deve ficar dentro deste diretório)
+(.git\objects armazena o grafo de commits)
+git add (para adicionar os arquivos criados ou modificados ao conteiner. git add . ou git add * adiciona todos os arquivos)
+git status (verifica o que esta armazenado no conteiner)
+git commit -m "Comentário" (identifica e armazena este conteiner no repositório local .git 
+dentro dele serão armazenados conteiners que são identificados, o conteúdo do projeto estará dentro dos conteiners)
+ls -a (para visualizar diretórios acultos)
+git log (para gerenciar, visualizar todas as alterações, todos os logs)
